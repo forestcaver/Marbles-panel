@@ -189,6 +189,7 @@ void Settings::Init() {
   persistent_data_.calibration_data.dac_scale[3] = -6275.21875000f;
 */
   /* Module 2 */
+/*
   persistent_data_.calibration_data.dac_offset[0] = 32407.04687500f;
   persistent_data_.calibration_data.dac_scale[0] = -6216.91699219f;
   persistent_data_.calibration_data.dac_offset[1] = 32434.53906250f;
@@ -197,6 +198,16 @@ void Settings::Init() {
   persistent_data_.calibration_data.dac_scale[2] = -6212.68945312f;
   persistent_data_.calibration_data.dac_offset[3] = 32470.53320312f;
   persistent_data_.calibration_data.dac_scale[3] = -6202.39453125f;
+*/
+  /* Module 3 */
+  persistent_data_.calibration_data.dac_offset[0] = 32571.4504676465;
+  persistent_data_.calibration_data.dac_scale[0] = -6241.64916968887;
+  persistent_data_.calibration_data.dac_offset[1] = 32498.6510951599;
+  persistent_data_.calibration_data.dac_scale[1] = -6198.34092371541;
+  persistent_data_.calibration_data.dac_offset[2] = 32571.5965621023;
+  persistent_data_.calibration_data.dac_scale[2] = -6274.87022037288;
+  persistent_data_.calibration_data.dac_offset[3] = 32523.7682157229;
+  persistent_data_.calibration_data.dac_scale[3] = -6258.34168551153;
   // End AJH edits
   
   for (size_t i = 0; i < kNumScales; ++i) {
